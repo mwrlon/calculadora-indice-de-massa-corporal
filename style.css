@@ -10,7 +10,7 @@ body {
 }
 
 .formulario {
-    background-color: #ffe4ec;
+    background-color: #ffb9ce;
     width: 300px;
     margin: auto;
     padding: 20px;
@@ -26,25 +26,25 @@ body {
 }
 
 .formulario input {
-    width: 90%;
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #f2b6cf;
     border-radius: 6px;
 }
 
-.formulario button {
-    background-color: #f7a8c6;
+ button {
+    background-color: #ff9ac1;
     color: white;
-    border: none;
+    border: white;
     padding: 10px 20px;
     border-radius: 8px;
-    cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
-.formulario button:hover {
-    background-color: #e48bb0;
+ button:hover {
+    background-color: #d481a1;
+    cursor: pointer;
 }
 
 .resultado {
